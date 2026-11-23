@@ -1,0 +1,38 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Django environment variables
+.env
+.env.*
+!.env.example
+
+# SQLite database
+db.sqlite3
+*.sqlite3
+
+# Django generated files
+staticfiles/
+media/
+
+# Python testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Postman local metadata
+.postman/
